@@ -1,0 +1,12 @@
+1. ทำการติดตั้งแพ็ตเกจและ ไลบรารี่ที่ต้องการในไฟล์
+    1.1 เปิด Terminal
+    1.2 พิมพ์ pip install -r requirements.txt
+
+2. วิธีรันไฟล์ Test 
+    2.1 รันไฟล์ Project test-react-innonity
+        2.1.1   npm install
+        2.1.2   npm run dev
+    2.2 copy URL
+    2.3 เปลี่ยน URL ในช่อง  driver.get('URL') **มี 2 ที่**
+    2.4 เปิด Terminal
+    2.5 พิมพ์ pytest test-react-innonity.py
